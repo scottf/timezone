@@ -1,0 +1,370 @@
+#
+# USA
+# country code,state/province code,state/province name,city,timezoneId
+#
+US,AL,Alabama,,US/Central
+US,AK,Alaska,,US/Alaska
+US,AZ,Arizona,,US/Arizona
+US,AR,Arkansas,,US/Central
+US,CA,California,,US/Pacific
+US,CO,Colorado,,US/Mountain
+US,CT,Connecticut,,US/Eastern
+US,DE,Delaware,,US/Eastern
+US,DC,District of Columbia,,US/Eastern
+US,FL,Florida,,US/Eastern
+US,GA,Georgia,,US/Eastern
+US,HI,Hawaii,,US/Hawaii
+US,ID,Idaho,,US/Mountain
+US,IL,Illinois,,US/Central
+US,IN,Indiana,,US/Eastern
+US,IA,Iowa,,US/Central
+US,KS,Kansas,,US/Central
+US,KY,Kentucky,,US/Columbia
+US,LA,Louisiana,,US/Central
+US,ME,Maine,,US/Eastern
+US,MD,Maryland,,US/Eastern
+US,MA,Massachusetts,,US/Eastern
+US,MI,Michigan,,US/Eastern
+US,MN,Minnesota,,US/Central
+US,MS,Mississippi,,US/Central
+US,MO,Missouri,,US/Central
+US,MT,Montana,,US/Mountain
+US,NE,Nebraska,,US/Central
+US,NV,Nevada,,US/Pacific
+US,NV,Nevada,Jackpot,US/Mountain
+US,NV,Nevada,West Wendover,US/Mountain
+US,NH,New Hampshire,,US/Eastern
+US,NJ,New Jersey,,US/Eastern
+US,NM,New Mexico,,US/Mountain
+US,NY,New York,,US/Eastern
+US,NC,North Carolina,,US/Eastern
+US,ND,North Dakota,,US/Central
+US,OH,Ohio,,US/Eastern
+US,OK,Oklahoma,,US/Central
+US,OR,Oregon,,US/Pacific
+US,PA,Pennsylvania,,US/Eastern
+US,RI,Rhode Island,,US/Eastern
+US,SC,South Carolina,,US/Eastern
+US,SD,South Dakota,,US/Mountain
+US,TN,Tennessee,,US/Central
+US,TX,Texas,,US/Central
+US,UT,Utah,,US/Mountain
+US,VT,Vermont,,US/Eastern
+US,VA,Virginia,,US/Eastern
+US,WA,Washington,,US/Pacific
+US,WV,West Virginia,,US/Eastern
+US,WI,Wisconsin,,US/Central
+US,WY,Wyoming,,US/Mountain
+US,AS,American Somona,,Pacific/Somoa
+US,GU,Guam,,Pacific/Guam
+US,PR,Puerto Rico,,America/Puerto_Rico
+US,VI,Virgin Islands,,America/Virgin
+US,PW,Palau,,Pacific/Palau
+#
+# CANADA
+# country code,state/province code,timezoneId
+#
+CA,AB,Alberta,Canada/Mountain
+CA,BC,British Columbia,Canada/Pacific
+CA,MB,Manitoba,Canada/Central
+CA,NB,New Brunswick,Canada/Atlantic
+CA,NT,Northwest Territories,Canada/Mountain
+CA,NS,Nova Scotia,Canada/Atlantic
+CA,ON,Ontario,Canada/Eastern
+CA,PQ,Quebec,Canada/Eastern,QC
+CA,SK,Saskatchewan,Canada/Central
+CA,YT,Yukon Territory,Canada/Pacific
+#
+# AUSTRALIA
+# country code,state/province code,state/province name,city,timezoneId
+#
+AU,QLD,Queensland,,Australia/Queensland
+AU,NSW,New South Wales,,Australia/NSW
+AU,NSW,New South Wales,Broken Hill,Australia/Broken_Hill
+AU,VIC,Victoria,,Australia/Victoria
+AU,TAS,Tasmania,,Australia/Tasmania
+AU,ACT,Australian Capital Territory,,Australia/ACT
+AU,SA,South Australia,,Australia/South
+AU,NT,Northern Territory,,Australia/North
+AU,WA,Western Australia,,Australia/West
+#
+# NEW ZEALAND
+# country code,state/province code,timezoneId
+#
+NZ,,Pacific/Auckland
+NZ,CHATHAM,Pacific/Chatham
+#
+# GUESS BEST
+# Best Guess for small countries, islands countries with different TimeZones
+# Most often most of the country is in one timezone and for our purposes this is
+# sufficient.At worst we'll be off by 1 TimeZone
+# country code, timezoneId, country name(,country name)*
+#
+PF,Pacific/Tahiti,FRENCH POLYNESIA
+EC,America/Guayaquil,ECUADOR
+28,Asia/Manila,SPRATLY ISLANDS,SPRATLY
+GL,America/Godthab,GREENLAND
+ID,Asia/Jakarta,INDONESIA
+KZ,Asia/Almaty,KAZAKHSTAN
+KI,Pacific/Kiritimati,KIRIBATI
+MN,Asia/Ulaanbaatar,MONGOLIA
+FM,Pacific/Pohnpei,FEDERATED STATES OF MICRONESIA,MICRONESIA
+#
+# TODO NOW ONE
+# Treat as One Timezone Countries
+# until they are done correctly
+#
+BR,America/Sao_Paulo,BRAZIL
+RU,Europe/Moscow,RUSSIA
+MX,America/Mexico_City,MEXICO
+AQ,GMT,ANTARCTICA
+#
+# ONE
+# One Timezone Countries
+# country code, timezoneId, country name(,country name)*
+#
+AF,Asia/Kabul,AFGHANISTAN
+AL,Europe/Tirane,ALBANIA
+DZ,Africa/Algiers,ALGERIA
+AS,Pacific/Pago_Pago,AMERICAN SAMOA
+AD,Europe/Andorra,ANDORRA
+AO,Africa/Lagos,ANGOLA
+AI,America/Anguilla,ANGUILLA
+AG,America/Antigua,ANTIGUA AND BARBUDA
+AR,AGT,ARGENTINA
+AM,Asia/Yerevan,ARMENIA
+AW,America/Aruba,ARUBA
+25,Australia/West,ASHMORE AND CARTIER ISLANDS
+AT,Europe/Vienna,AUSTRIA
+AZ,Asia/Baku,AZERBAIJAN
+BS,America/Nassau,BAHAMAS
+BH,Asia/Bahrain,BAHRAIN
+16,Etc/GMT+12,BAKER ISLAND
+BD,Asia/Dhaka,BANGLADESH
+BB,America/Barbados,BARBADOS
+1,EAT,BASSAS DA INDIA
+BY,Europe/Minsk,BELARUS
+BE,Europe/Brussels,BELGIUM
+BZ,America/Belize,BELIZE
+BJ,Africa/Porto-Novo,BENIN
+BM,Atlantic/Bermuda,BERMUDA
+BT,Asia/Thimphu,BHUTAN
+BO,America/La_Paz,BOLIVIA
+BA,Europe/Belgrade,BOSNIA AND HERZEGOVINA
+BW,Africa/Gaborone,BOTSWANA
+BV,GMT,BOUVET ISLAND
+IO,Indian/Chagos,BRITISH INDIAN OCEAN TERRITORY
+BN,Asia/Brunei,BRUNEI
+BG,Europe/Sofia,BULGARIA
+BF,Africa/Ouagadougou,BURKINA FASO
+BI,Africa/Bujumbura,BURUNDI
+KH,Asia/Phnom_Penh,CAMBODIA
+CM,Africa/Douala,CAMEROON
+CV,Atlantic/Cape_Verde,CAPE VERDE
+KY,America/Cayman,CAYMAN ISLANDS
+CF,Africa/Bangui,CENTRAL AFRICAN REPUBLIC
+TD,Africa/Ndjamena,CHAD
+CL,America/Santiago,CHILE
+CN,Asia/Shanghai,CHINA
+CX,Indian/Christmas,CHRISTMAS ISLAND
+29,SystemV/PST8,CLIPPERTON ISLAND
+CC,Indian/Cocos,COCOS ISLANDS,KEELING ISLANDS
+CO,America/Bogota,COLOMBIA
+KM,Indian/Comoro,COMOROS
+CG,Africa/Brazzaville,CONGO
+CD,Africa/Kinshasa,DEMOCRATIC REPUBLIC OF THE CONGO
+CK,Pacific/Rarotonga,COOK ISLANDS
+17,Australia/Brisbane,CORAL SEA ISLANDS
+CR,America/Costa_Rica,COSTA RICA
+CI,Africa/Abidjan,COTE DIVOIRE
+HR,Europe/Zagreb,CROATIA
+CU,Cuba,CUBA
+CY,Europe/Nicosia,CYPRUS
+CZ,Europe/Prague,CZECH REPUBLIC
+DK,Europe/Copenhagen,DENMARK
+DJ,Africa/Djibouti,DJIBOUTI
+DM,America/Dominica,DOMINICA
+DO,America/Santo_Domingo,DOMINICAN REPUBLIC
+TP,Asia/Dili,EAST TIMOR
+EG,Egypt,EGYPT
+SV,America/El_Salvador,EL SALVADOR
+GQ,Africa/Malabo,EQUATORIAL GUINEA
+ER,EAT,ERITREA
+EE,Europe/Tallinn,ESTONIA
+ET,EAT,ETHIOPIA
+2,EAT,EUROPA ISLAND
+FK,Atlantic/Stanley,FALKLAND ISLANDS,MALVINAS
+FO,Atlantic/Faroe,FAROE ISLANDS
+FJ,Pacific/Fiji,FIJI
+FI,Europe/Helsinki,FINLAND
+FR,Europe/Paris,FRANCE
+GF,America/Cayenne,FRENCH GUIANA
+TF,Indian/Kerguelen,FRENCH SOUTHERN TERRITORIES
+GA,Africa/Libreville,GABON
+GM,Africa/Banjul,GAMBIA
+13,EET,GAZA STRIP
+GE,Asia/Tbilisi,GEORGIA
+DE,Europe/Berlin,GERMANY
+GH,Africa/Accra,GHANA
+GI,Europe/Gibraltar,GIBRALTAR
+3,Etc/GMT-4,GLORIOSO ISLANDS
+GR,Europe/Athens,GREECE
+GD,America/Grenada,GRENADA
+GP,America/Guadeloupe,GUADELOUPE
+GU,Pacific/Guam,GUAM
+GT,America/Guatemala,GUATEMALA
+9,Europe/Guernsey,GUERNSEY
+GN,Africa/Conakry,GUINEA
+GW,Africa/Bissau,GUINEA-BISSAU
+GY,America/Guyana,GUYANA
+HT,America/Port-au-Prince,HAITI
+HM,Antarctica/Mawson,HEARD AND MC DONALD ISLANDS
+VA,Europe/Vatican,HOLY SEE,VATICAN CITY
+HN,America/Tegucigalpa,HONDURAS
+HK,Asia/Hong_Kong,HONG KONG
+18,Etc/GMT+12,HOWLAND ISLAND
+HU,Europe/Budapest,HUNGARY
+IS,Atlantic/Reykjavik,ICELAND
+IN,IST,INDIA
+IR,Asia/Tehran,IRAN
+IQ,Asia/Baghdad,IRAQ
+IE,Europe/Dublin,IRELAND
+IL,Asia/Tel_Aviv,ISRAEL
+IT,Europe/Rome,ITALY
+JM,America/Jamaica,JAMAICA
+7,CET,JAN MAYEN
+JP,Asia/Tokyo,JAPAN
+19,Etc/GMT+11,JARVIS ISLAND
+10,Europe/Jersey,JERSEY
+20,Pacific/Johnston,JOHNSTON ATOLL
+JO,Asia/Amman,JORDAN
+4,EAT,JUAN DE NOVA ISLAND
+KE,Africa/Nairobi,KENYA
+21,Etc/GMT+11,KINGMAN REEF
+KW,Asia/Kuwait,KUWAIT
+KG,Asia/Bishkek,KYRGYZSTAN
+LA,Asia/Vientiane,LAOS
+LV,EET,LATVIA
+LB,Asia/Beirut,LEBANON
+LS,Africa/Maseru,LESOTHO
+LR,Africa/Monrovia,LIBERIA
+LY,Africa/Tripoli,LIBYA
+LI,Europe/Vaduz,LIECHTENSTEIN
+LT,Europe/Vilnius,LITHUANIA
+LU,Europe/Luxembourg,LUXEMBOURG
+MO,Asia/Macau,MACAU
+MK,Europe/Skopje,MACEDONIA
+MG,EAT,MADAGASCAR
+MW,CAT,MALAWI
+MY,Asia/Kuala_Lumpur,MALAYSIA
+MV,Indian/Maldives,MALDIVES
+ML,Africa/Bamako,MALI
+MT,Europe/Malta,MALTA
+11,Europe/Isle_of_Man,ISLE OF MAN
+MH,Pacific/Majuro,MARSHALL ISLANDS
+MQ,America/Martinique,MARTINIQUE
+MR,Africa/Nouakchott,MAURITANIA
+MU,Indian/Mauritius,MAURITIUS
+YT,Indian/Mayotte,MAYOTTE
+22,Pacific/Midway,MIDWAY ISLANDS
+MD,Europe/Chisinau,REPUBLIC OF MOLDOVA
+MC,Europe/Monaco,MONACO
+MS,America/Montserrat,MONTSERRAT
+MA,Africa/Casablanca,MOROCCO
+MZ,Africa/Maputo,MOZAMBIQUE
+MM,Asia/Rangoon,MYANMAR
+NA,Africa/Windhoek,NAMIBIA
+NR,Pacific/Nauru,NAURU
+8,SystemV/EST5,NAVASSA ISLAND
+NP,Asia/Katmandu,NEPAL
+NL,Europe/Amsterdam,THE NETHERLANDS,NETHERLANDS
+AN,SystemV/AST4,NETHERLANDS ANTILLES
+NC,Pacific/Noumea,NEW CALEDONIA
+NI,America/Managua,NICARAGUA
+NE,Africa/Niamey,NIGER
+NG,Africa/Lagos,NIGERIA
+NU,Pacific/Niue,NIUE
+NF,Pacific/Norfolk,NORFOLK ISLAND
+KP,Asia/Pyongyang,NORTH KOREA
+MP,Pacific/Saipan,NORTHERN MARIANA ISLANDS
+NO,Europe/Oslo,NORWAY
+OM,Asia/Muscat,OMAN
+PK,Asia/Karachi,PAKISTAN
+PW,Pacific/Palau,PALAU
+23,US/Samoa,PALMYRA ATOLL
+PA,America/Panama,PANAMA
+PG,Pacific/Port_Moresby,PAPUA NEW GUINEA
+27,Etc/GMT-8,PARACEL ISLANDS
+PY,America/Asuncion,PARAGUAY
+PE,America/Lima,PERU
+PH,Asia/Manila,PHILIPPINES
+PN,Pacific/Pitcairn,PITCAIRN
+PL,Europe/Warsaw,POLAND
+PT,Europe/Lisbon,PORTUGAL
+PR,America/Puerto_Rico,PUERTO RICO
+QA,Asia/Qatar,QATAR
+RE,Indian/Reunion,REUNION
+RO,Europe/Bucharest,ROMANIA
+RW,Africa/Kigali,RWANDA
+5,Atlantic/St_Helena,SAINT HELENA
+KN,America/St_Kitts,SAINT KITTS AND NEVIS
+LC,America/St_Lucia,SAINT LUCIA
+14,BET,SAINT PIERRE AND MIQUELON
+VC,America/St_Vincent,SAINT VINCENT AND THE GRENADINES
+SM,Europe/San_Marino,SAN MARINO
+ST,Africa/Sao_Tome,SAO TOME AND PRINCIPE
+SA,Asia/Riyadh,SAUDI ARABIA
+SN,Africa/Dakar,SENEGAL
+12,Europe/Belgrade,SERBIA AND MONTENEGRO
+SC,Indian/Mahe,SEYCHELLES
+SL,Africa/Freetown,SIERRA LEONE
+SG,Asia/Singapore,SINGAPORE
+SK,Europe/Bratislava,SLOVAKIA
+SI,Europe/Ljubljana,SLOVENIA
+SB,SST,SOLOMON ISLANDS
+SO,Africa/Mogadishu,SOMALIA
+ZA,Africa/Johannesburg,SOUTH AFRICA
+GS,Atlantic/South_Georgia,SOUTH GEORGIA
+KR,Asia/Seoul,SOUTH KOREA
+ES,Europe/Madrid,SPAIN
+LK,Asia/Colombo,SRI LANKA
+SD,Africa/Khartoum,SUDAN
+SR,America/Paramaribo,SURINAME
+SJ,Atlantic/Jan_Mayen,SVALBARD AND JAN MAYEN ISLANDS
+SZ,Africa/Mbabane,SWAZILAND
+SE,Europe/Stockholm,SWEDEN
+CH,Europe/Zurich,SWITZERLAND
+SY,Asia/Damascus,SYRIA
+TW,Asia/Taipei,TAIWAN
+TJ,Asia/Dushanbe,TAJIKISTAN
+TZ,Africa/Dar_es_Salaam,TANZANIA
+TH,Asia/Bangkok,THAILAND
+TG,Africa/Lome,TOGO
+TK,Etc/GMT-13,TOKELAU
+TO,Pacific/Tongatapu,TONGA
+TT,America/Port_of_Spain,TRINIDAD AND TOBAGO
+6,Etc/GMT-4,TROMELIN ISLAND
+TN,Africa/Tunis,TUNISIA
+TR,Asia/Istanbul,TURKEY
+TM,Asia/Ashgabat,TURKMENISTAN
+TC,America/Grand_Turk,TURKS AND CAICOS ISLANDS
+TV,Pacific/Funafuti,TUVALU
+UG,Africa/Kampala,UGANDA
+UA,Europe/Kiev,UKRAINE
+AE,Asia/Dubai,UNITED ARAB EMIRATES
+UK,Europe/London,UNITED KINGDOM,ENGLAND
+UY,America/Montevideo,URUGUAY
+UZ,Asia/Tashkent,UZBEKISTAN
+VU,SST,VANUATU
+VE,America/Caracas,VENEZUELA
+VN,Asia/Ho_Chi_Minh,VIETNAM
+VG,America/Tortola,BRITISH VIRGIN ISLANDS
+VI,America/St_Thomas,U.S. VIRGIN ISLANDS
+24,Pacific/Wake,WAKE ISLAND
+WF,Pacific/Wallis,WALLIS AND FUTUNA ISLANDS
+13,Asia/Gaza,WEST BANK
+EH,Africa/El_Aaiun,WESTERN SAHARA
+WS,Pacific/Apia,WESTERN SAMOA
+YE,Asia/Aden,YEMEN
+ZM,Africa/Lusaka,ZAMBIA
+ZW,Africa/Harare,ZIMBABWE

@@ -1,0 +1,616 @@
+Etc/GMT+12                      |GMT-12:00|no |primary    |fallback
+Etc/GMT+11                      |GMT-11:00|no |primary    |fallback
+Pacific/Midway                  |GMT-11:00|no |alternative|not
+Pacific/Niue                    |GMT-11:00|no |alternative|not
+Pacific/Pago_Pago               |GMT-11:00|no |alternative|not
+Pacific/Samoa                   |GMT-11:00|no |alternative|not
+US/Samoa                        |GMT-11:00|no |alternative|fallback
+US/Aleutian                     |GMT-10:00|yes|primary    |not
+America/Adak                    |GMT-10:00|yes|alternative|not
+America/Atka                    |GMT-10:00|yes|alternative|not
+HST                             |GMT-10:00|no |alternative|not
+US/Hawaii                       |GMT-10:00|no |primary    |fallback
+Pacific/Honolulu                |GMT-10:00|no |alternative|not
+Pacific/Johnston                |GMT-10:00|no |alternative|not
+Pacific/Rarotonga               |GMT-10:00|no |alternative|not
+Pacific/Tahiti                  |GMT-10:00|no |alternative|not
+SystemV/HST10                   |GMT-10:00|no |alternative|not
+Etc/GMT+10                      |GMT-10:00|no |alternative|not
+Pacific/Marquesas               |GMT-09:30|no |primary    |fallback
+US/Alaska                       |GMT-09:00|yes|primary    |fallback
+AST                             |GMT-09:00|yes|alternative|not
+America/Anchorage               |GMT-09:00|yes|alternative|not
+America/Juneau                  |GMT-09:00|yes|alternative|not
+America/Nome                    |GMT-09:00|yes|alternative|not
+America/Sitka                   |GMT-09:00|yes|alternative|not
+America/Yakutat                 |GMT-09:00|yes|alternative|not
+SystemV/YST9YDT                 |GMT-09:00|yes|alternative|not
+SystemV/YST9                    |GMT-09:00|no |primary    |not
+Etc/GMT+9                       |GMT-09:00|no |alternative|not
+Pacific/Gambier                 |GMT-09:00|no |alternative|not
+US/Pacific                      |GMT-08:00|yes|primary    |fallback
+America/Dawson                  |GMT-08:00|yes|alternative|not
+America/Ensenada                |GMT-08:00|yes|alternative|not
+America/Los_Angeles             |GMT-08:00|yes|alternative|not
+America/Santa_Isabel            |GMT-08:00|yes|alternative|not
+America/Tijuana                 |GMT-08:00|yes|alternative|not
+America/Vancouver               |GMT-08:00|yes|alternative|not
+America/Whitehorse              |GMT-08:00|yes|alternative|not
+Canada/Pacific                  |GMT-08:00|yes|alternative|not
+Canada/Yukon                    |GMT-08:00|yes|alternative|not
+Mexico/BajaNorte                |GMT-08:00|yes|alternative|not
+PST                             |GMT-08:00|yes|alternative|not
+PST8PDT                         |GMT-08:00|yes|alternative|not
+SystemV/PST8PDT                 |GMT-08:00|yes|alternative|not
+US/Pacific-New                  |GMT-08:00|yes|alternative|not
+SystemV/PST8                    |GMT-08:00|no |primary    |not
+America/Metlakatla              |GMT-08:00|no |alternative|not
+Etc/GMT+8                       |GMT-08:00|no |alternative|not
+Pacific/Pitcairn                |GMT-08:00|no |alternative|not
+US/Mountain                     |GMT-07:00|yes|primary    |fallback
+America/Boise                   |GMT-07:00|yes|alternative|not
+America/Cambridge_Bay           |GMT-07:00|yes|alternative|not
+America/Chihuahua               |GMT-07:00|yes|alternative|not
+America/Denver                  |GMT-07:00|yes|alternative|not
+America/Edmonton                |GMT-07:00|yes|alternative|not
+America/Inuvik                  |GMT-07:00|yes|alternative|not
+America/Mazatlan                |GMT-07:00|yes|alternative|not
+America/Ojinaga                 |GMT-07:00|yes|alternative|not
+America/Shiprock                |GMT-07:00|yes|alternative|not
+America/Yellowknife             |GMT-07:00|yes|alternative|not
+Canada/Mountain                 |GMT-07:00|yes|alternative|not
+MST7MDT                         |GMT-07:00|yes|alternative|not
+Mexico/BajaSur                  |GMT-07:00|yes|alternative|not
+Navajo                          |GMT-07:00|yes|alternative|not
+SystemV/MST7MDT                 |GMT-07:00|yes|alternative|not
+US/Arizona                      |GMT-07:00|no |primary    |not
+PNT                             |GMT-07:00|no |alternative|not
+SystemV/MST7                    |GMT-07:00|no |alternative|not
+America/Creston                 |GMT-07:00|no |alternative|not
+America/Dawson_Creek            |GMT-07:00|no |alternative|not
+America/Hermosillo              |GMT-07:00|no |alternative|not
+America/Phoenix                 |GMT-07:00|no |alternative|not
+Etc/GMT+7                       |GMT-07:00|no |alternative|not
+MST                             |GMT-07:00|no |alternative|not
+US/Central                      |GMT-06:00|yes|primary    |fallback
+America/Bahia_Banderas          |GMT-06:00|yes|alternative|not
+America/Cancun                  |GMT-06:00|yes|alternative|not
+America/Chicago                 |GMT-06:00|yes|alternative|not
+America/Indiana/Knox            |GMT-06:00|yes|alternative|not
+America/Indiana/Tell_City       |GMT-06:00|yes|alternative|not
+America/Knox_IN                 |GMT-06:00|yes|alternative|not
+America/Matamoros               |GMT-06:00|yes|alternative|not
+America/Menominee               |GMT-06:00|yes|alternative|not
+America/Merida                  |GMT-06:00|yes|alternative|not
+America/Mexico_City             |GMT-06:00|yes|alternative|not
+America/Monterrey               |GMT-06:00|yes|alternative|not
+America/North_Dakota/Beulah     |GMT-06:00|yes|alternative|not
+America/North_Dakota/Center     |GMT-06:00|yes|alternative|not
+America/North_Dakota/New_Salem  |GMT-06:00|yes|alternative|not
+America/Rainy_River             |GMT-06:00|yes|alternative|not
+America/Rankin_Inlet            |GMT-06:00|yes|alternative|not
+America/Resolute                |GMT-06:00|yes|alternative|not
+America/Winnipeg                |GMT-06:00|yes|alternative|not
+CST                             |GMT-06:00|yes|alternative|not
+CST6CDT                         |GMT-06:00|yes|alternative|not
+Canada/Central                  |GMT-06:00|yes|alternative|not
+Chile/EasterIsland              |GMT-06:00|yes|alternative|not
+Mexico/General                  |GMT-06:00|yes|alternative|not
+Pacific/Easter                  |GMT-06:00|yes|alternative|not
+SystemV/CST6CDT                 |GMT-06:00|yes|alternative|not
+US/Indiana-Starke               |GMT-06:00|yes|alternative|not
+SystemV/CST6                    |GMT-06:00|no |primary    |not
+America/Belize                  |GMT-06:00|no |alternative|not
+America/Costa_Rica              |GMT-06:00|no |alternative|not
+America/El_Salvador             |GMT-06:00|no |alternative|not
+America/Guatemala               |GMT-06:00|no |alternative|not
+America/Managua                 |GMT-06:00|no |alternative|not
+America/Regina                  |GMT-06:00|no |alternative|not
+America/Swift_Current           |GMT-06:00|no |alternative|not
+America/Tegucigalpa             |GMT-06:00|no |alternative|not
+Canada/East-Saskatchewan        |GMT-06:00|no |alternative|not
+Canada/Saskatchewan             |GMT-06:00|no |alternative|not
+Etc/GMT+6                       |GMT-06:00|no |alternative|not
+Pacific/Galapagos               |GMT-06:00|no |alternative|not
+US/Eastern                      |GMT-05:00|yes|primary    |fallback
+America/Detroit                 |GMT-05:00|yes|alternative|not
+America/Fort_Wayne              |GMT-05:00|yes|alternative|not
+America/Grand_Turk              |GMT-05:00|yes|alternative|not
+America/Havana                  |GMT-05:00|yes|alternative|not
+America/Indiana/Indianapolis    |GMT-05:00|yes|alternative|not
+America/Indiana/Marengo         |GMT-05:00|yes|alternative|not
+America/Indiana/Petersburg      |GMT-05:00|yes|alternative|not
+America/Indiana/Vevay           |GMT-05:00|yes|alternative|not
+America/Indiana/Vincennes       |GMT-05:00|yes|alternative|not
+America/Indiana/Winamac         |GMT-05:00|yes|alternative|not
+America/Indianapolis            |GMT-05:00|yes|alternative|not
+America/Iqaluit                 |GMT-05:00|yes|alternative|not
+America/Kentucky/Louisville     |GMT-05:00|yes|alternative|not
+America/Kentucky/Monticello     |GMT-05:00|yes|alternative|not
+America/Louisville              |GMT-05:00|yes|alternative|not
+America/Montreal                |GMT-05:00|yes|alternative|not
+America/Nassau                  |GMT-05:00|yes|alternative|not
+America/New_York                |GMT-05:00|yes|alternative|not
+America/Nipigon                 |GMT-05:00|yes|alternative|not
+America/Pangnirtung             |GMT-05:00|yes|alternative|not
+America/Thunder_Bay             |GMT-05:00|yes|alternative|not
+America/Toronto                 |GMT-05:00|yes|alternative|not
+Canada/Eastern                  |GMT-05:00|yes|alternative|not
+Cuba                            |GMT-05:00|yes|alternative|not
+EST5EDT                         |GMT-05:00|yes|alternative|not
+IET                             |GMT-05:00|yes|alternative|not
+SystemV/EST5EDT                 |GMT-05:00|yes|alternative|not
+US/East-Indiana                 |GMT-05:00|yes|alternative|not
+US/Michigan                     |GMT-05:00|yes|alternative|not
+SystemV/EST5                    |GMT-05:00|no |primary    |not
+America/Atikokan                |GMT-05:00|no |alternative|not
+America/Bogota                  |GMT-05:00|no |alternative|not
+America/Cayman                  |GMT-05:00|no |alternative|not
+America/Coral_Harbour           |GMT-05:00|no |alternative|not
+America/Guayaquil               |GMT-05:00|no |alternative|not
+America/Jamaica                 |GMT-05:00|no |alternative|not
+America/Lima                    |GMT-05:00|no |alternative|not
+America/Panama                  |GMT-05:00|no |alternative|not
+America/Port-au-Prince          |GMT-05:00|no |alternative|not
+EST                             |GMT-05:00|no |alternative|not
+Etc/GMT+5                       |GMT-05:00|no |alternative|not
+Jamaica                         |GMT-05:00|no |alternative|not
+America/Caracas                 |GMT-04:30|no |primary    |fallback
+SystemV/AST4ADT                 |GMT-04:00|yes|primary    |fallback
+America/Asuncion                |GMT-04:00|yes|alternative|not
+America/Campo_Grande            |GMT-04:00|yes|alternative|not
+America/Cuiaba                  |GMT-04:00|yes|alternative|not
+America/Glace_Bay               |GMT-04:00|yes|alternative|not
+America/Goose_Bay               |GMT-04:00|yes|alternative|not
+America/Halifax                 |GMT-04:00|yes|alternative|not
+America/Moncton                 |GMT-04:00|yes|alternative|not
+America/Thule                   |GMT-04:00|yes|alternative|not
+Atlantic/Bermuda                |GMT-04:00|yes|alternative|not
+Canada/Atlantic                 |GMT-04:00|yes|alternative|not
+Antarctica/Palmer               |GMT-04:00|yes|alternative|not
+America/Santiago                |GMT-04:00|yes|alternative|not
+Chile/Continental               |GMT-04:00|yes|alternative|not
+SystemV/AST4                    |GMT-04:00|no |primary    |not
+America/Anguilla                |GMT-04:00|no |alternative|not
+America/Antigua                 |GMT-04:00|no |alternative|not
+America/Argentina/San_Luis      |GMT-04:00|no |alternative|not
+America/Aruba                   |GMT-04:00|no |alternative|not
+America/Barbados                |GMT-04:00|no |alternative|not
+America/Blanc-Sablon            |GMT-04:00|no |alternative|not
+America/Boa_Vista               |GMT-04:00|no |alternative|not
+America/Curacao                 |GMT-04:00|no |alternative|not
+America/Dominica                |GMT-04:00|no |alternative|not
+America/Eirunepe                |GMT-04:00|no |alternative|not
+America/Grenada                 |GMT-04:00|no |alternative|not
+America/Guadeloupe              |GMT-04:00|no |alternative|not
+America/Guyana                  |GMT-04:00|no |alternative|not
+America/Kralendijk              |GMT-04:00|no |alternative|not
+America/La_Paz                  |GMT-04:00|no |alternative|not
+America/Lower_Princes           |GMT-04:00|no |alternative|not
+America/Manaus                  |GMT-04:00|no |alternative|not
+America/Marigot                 |GMT-04:00|no |alternative|not
+America/Martinique              |GMT-04:00|no |alternative|not
+America/Montserrat              |GMT-04:00|no |alternative|not
+America/Port_of_Spain           |GMT-04:00|no |alternative|not
+America/Porto_Acre              |GMT-04:00|no |alternative|not
+America/Porto_Velho             |GMT-04:00|no |alternative|not
+America/Puerto_Rico             |GMT-04:00|no |alternative|not
+America/Rio_Branco              |GMT-04:00|no |alternative|not
+America/Santo_Domingo           |GMT-04:00|no |alternative|not
+America/St_Barthelemy           |GMT-04:00|no |alternative|not
+America/St_Kitts                |GMT-04:00|no |alternative|not
+America/St_Lucia                |GMT-04:00|no |alternative|not
+America/St_Thomas               |GMT-04:00|no |alternative|not
+America/St_Vincent              |GMT-04:00|no |alternative|not
+America/Tortola                 |GMT-04:00|no |alternative|not
+America/Virgin                  |GMT-04:00|no |alternative|not
+Brazil/Acre                     |GMT-04:00|no |alternative|not
+Brazil/West                     |GMT-04:00|no |alternative|not
+Etc/GMT+4                       |GMT-04:00|no |alternative|not
+PRT                             |GMT-04:00|no |alternative|not
+CNT                             |GMT-03:30|yes|primary    |fallback
+America/St_Johns                |GMT-03:30|yes|alternative|not
+Canada/Newfoundland             |GMT-03:30|yes|alternative|not
+BET                             |GMT-03:00|yes|primary    |fallback
+America/Bahia                   |GMT-03:00|yes|alternative|not
+America/Godthab                 |GMT-03:00|yes|alternative|not
+America/Miquelon                |GMT-03:00|yes|alternative|not
+America/Montevideo              |GMT-03:00|yes|alternative|not
+America/Sao_Paulo               |GMT-03:00|yes|alternative|not
+Brazil/East                     |GMT-03:00|yes|alternative|not
+AGT                             |GMT-03:00|no |primary    |not
+America/Araguaina               |GMT-03:00|no |alternative|not
+America/Argentina/Buenos_Aires  |GMT-03:00|no |alternative|not
+America/Argentina/Catamarca     |GMT-03:00|no |alternative|not
+America/Argentina/ComodRivadavia|GMT-03:00|no |alternative|not
+America/Argentina/Cordoba       |GMT-03:00|no |alternative|not
+America/Argentina/Jujuy         |GMT-03:00|no |alternative|not
+America/Argentina/La_Rioja      |GMT-03:00|no |alternative|not
+America/Argentina/Mendoza       |GMT-03:00|no |alternative|not
+America/Argentina/Rio_Gallegos  |GMT-03:00|no |alternative|not
+America/Argentina/Salta         |GMT-03:00|no |alternative|not
+America/Argentina/San_Juan      |GMT-03:00|no |alternative|not
+America/Argentina/Tucuman       |GMT-03:00|no |alternative|not
+America/Argentina/Ushuaia       |GMT-03:00|no |alternative|not
+America/Belem                   |GMT-03:00|no |alternative|not
+America/Buenos_Aires            |GMT-03:00|no |alternative|not
+America/Catamarca               |GMT-03:00|no |alternative|not
+America/Cayenne                 |GMT-03:00|no |alternative|not
+America/Cordoba                 |GMT-03:00|no |alternative|not
+America/Fortaleza               |GMT-03:00|no |alternative|not
+America/Jujuy                   |GMT-03:00|no |alternative|not
+America/Maceio                  |GMT-03:00|no |alternative|not
+America/Mendoza                 |GMT-03:00|no |alternative|not
+America/Paramaribo              |GMT-03:00|no |alternative|not
+America/Recife                  |GMT-03:00|no |alternative|not
+America/Rosario                 |GMT-03:00|no |alternative|not
+America/Santarem                |GMT-03:00|no |alternative|not
+Antarctica/Rothera              |GMT-03:00|no |alternative|not
+Atlantic/Stanley                |GMT-03:00|no |alternative|not
+Etc/GMT+3                       |GMT-03:00|no |alternative|not
+America/Noronha                 |GMT-02:00|no |primary    |fallback
+Etc/GMT+2                       |GMT-02:00|no |alternative|not
+Atlantic/South_Georgia          |GMT-02:00|no |alternative|not
+Brazil/DeNoronha                |GMT-02:00|no |alternative|not
+America/Scoresbysund            |GMT-01:00|yes|primary    |not
+Atlantic/Azores                 |GMT-01:00|yes|alternative|not
+Atlantic/Cape_Verde             |GMT-01:00|no |primary    |fallback
+Etc/GMT+1                       |GMT-01:00|no |alternative|not
+WET                             |GMT      |yes|primary    |fallback
+Africa/Casablanca               |GMT      |yes|alternative|not
+Atlantic/Canary                 |GMT      |yes|alternative|not
+Atlantic/Faeroe                 |GMT      |yes|alternative|not
+Atlantic/Faroe                  |GMT      |yes|alternative|not
+Atlantic/Madeira                |GMT      |yes|alternative|not
+Eire                            |GMT      |yes|alternative|not
+Europe/Belfast                  |GMT      |yes|alternative|not
+Europe/Dublin                   |GMT      |yes|alternative|not
+Europe/Guernsey                 |GMT      |yes|alternative|not
+Europe/Isle_of_Man              |GMT      |yes|alternative|not
+Europe/Jersey                   |GMT      |yes|alternative|not
+Europe/Lisbon                   |GMT      |yes|alternative|not
+Europe/London                   |GMT      |yes|alternative|not
+GB                              |GMT      |yes|alternative|not
+GB-Eire                         |GMT      |yes|alternative|not
+Portugal                        |GMT      |yes|alternative|not
+GMT                             |GMT      |no |primary    |not
+Africa/Abidjan                  |GMT      |no |alternative|not
+Africa/Accra                    |GMT      |no |alternative|not
+Africa/Bamako                   |GMT      |no |alternative|not
+Africa/Banjul                   |GMT      |no |alternative|not
+Africa/Bissau                   |GMT      |no |alternative|not
+Africa/Conakry                  |GMT      |no |alternative|not
+Africa/Dakar                    |GMT      |no |alternative|not
+Africa/El_Aaiun                 |GMT      |no |alternative|not
+Africa/Freetown                 |GMT      |no |alternative|not
+Africa/Lome                     |GMT      |no |alternative|not
+Africa/Monrovia                 |GMT      |no |alternative|not
+Africa/Nouakchott               |GMT      |no |alternative|not
+Africa/Ouagadougou              |GMT      |no |alternative|not
+Africa/Sao_Tome                 |GMT      |no |alternative|not
+Africa/Timbuktu                 |GMT      |no |alternative|not
+America/Danmarkshavn            |GMT      |no |alternative|not
+Atlantic/Reykjavik              |GMT      |no |alternative|not
+Atlantic/St_Helena              |GMT      |no |alternative|not
+Etc/GMT                         |GMT      |no |alternative|not
+Etc/GMT+0                       |GMT      |no |alternative|not
+Etc/GMT-0                       |GMT      |no |alternative|not
+Etc/GMT0                        |GMT      |no |alternative|not
+Etc/Greenwich                   |GMT      |no |alternative|not
+Etc/UCT                         |GMT      |no |alternative|not
+Etc/UTC                         |GMT      |no |alternative|not
+Etc/Universal                   |GMT      |no |alternative|not
+Etc/Zulu                        |GMT      |no |alternative|not
+GMT0                            |GMT      |no |alternative|not
+Greenwich                       |GMT      |no |alternative|not
+Iceland                         |GMT      |no |alternative|not
+UCT                             |GMT      |no |alternative|not
+UTC                             |GMT      |no |alternative|not
+Universal                       |GMT      |no |alternative|not
+Zulu                            |GMT      |no |alternative|not
+CET                             |GMT+01:00|yes|primary    |fallback
+Africa/Ceuta                    |GMT+01:00|yes|alternative|not
+Africa/Windhoek                 |GMT+01:00|yes|alternative|not
+Arctic/Longyearbyen             |GMT+01:00|yes|alternative|not
+Atlantic/Jan_Mayen              |GMT+01:00|yes|alternative|not
+ECT                             |GMT+01:00|yes|alternative|not
+Europe/Amsterdam                |GMT+01:00|yes|alternative|not
+Europe/Andorra                  |GMT+01:00|yes|alternative|not
+Europe/Belgrade                 |GMT+01:00|yes|alternative|not
+Europe/Berlin                   |GMT+01:00|yes|alternative|not
+Europe/Bratislava               |GMT+01:00|yes|alternative|not
+Europe/Brussels                 |GMT+01:00|yes|alternative|not
+Europe/Budapest                 |GMT+01:00|yes|alternative|not
+Europe/Copenhagen               |GMT+01:00|yes|alternative|not
+Europe/Gibraltar                |GMT+01:00|yes|alternative|not
+Europe/Ljubljana                |GMT+01:00|yes|alternative|not
+Europe/Luxembourg               |GMT+01:00|yes|alternative|not
+Europe/Madrid                   |GMT+01:00|yes|alternative|not
+Europe/Malta                    |GMT+01:00|yes|alternative|not
+Europe/Monaco                   |GMT+01:00|yes|alternative|not
+Europe/Oslo                     |GMT+01:00|yes|alternative|not
+Europe/Paris                    |GMT+01:00|yes|alternative|not
+Europe/Podgorica                |GMT+01:00|yes|alternative|not
+Europe/Prague                   |GMT+01:00|yes|alternative|not
+Europe/Rome                     |GMT+01:00|yes|alternative|not
+Europe/San_Marino               |GMT+01:00|yes|alternative|not
+Europe/Sarajevo                 |GMT+01:00|yes|alternative|not
+Europe/Skopje                   |GMT+01:00|yes|alternative|not
+Europe/Stockholm                |GMT+01:00|yes|alternative|not
+Europe/Tirane                   |GMT+01:00|yes|alternative|not
+Europe/Vaduz                    |GMT+01:00|yes|alternative|not
+Europe/Vatican                  |GMT+01:00|yes|alternative|not
+Europe/Vienna                   |GMT+01:00|yes|alternative|not
+Europe/Warsaw                   |GMT+01:00|yes|alternative|not
+Europe/Zagreb                   |GMT+01:00|yes|alternative|not
+Europe/Zurich                   |GMT+01:00|yes|alternative|not
+MET                             |GMT+01:00|yes|alternative|not
+Poland                          |GMT+01:00|yes|alternative|not
+Africa/Lagos                    |GMT+01:00|no |primary    |not
+Africa/Algiers                  |GMT+01:00|no |alternative|not
+Africa/Bangui                   |GMT+01:00|no |alternative|not
+Africa/Brazzaville              |GMT+01:00|no |alternative|not
+Africa/Douala                   |GMT+01:00|no |alternative|not
+Africa/Kinshasa                 |GMT+01:00|no |alternative|not
+Africa/Libreville               |GMT+01:00|no |alternative|not
+Africa/Luanda                   |GMT+01:00|no |alternative|not
+Africa/Malabo                   |GMT+01:00|no |alternative|not
+Africa/Ndjamena                 |GMT+01:00|no |alternative|not
+Africa/Niamey                   |GMT+01:00|no |alternative|not
+Africa/Porto-Novo               |GMT+01:00|no |alternative|not
+Africa/Tunis                    |GMT+01:00|no |alternative|not
+Etc/GMT-1                       |GMT+01:00|no |alternative|not
+EET                             |GMT+02:00|yes|primary    |fallback
+Asia/Amman                      |GMT+02:00|yes|alternative|not
+Asia/Beirut                     |GMT+02:00|yes|alternative|not
+Asia/Damascus                   |GMT+02:00|yes|alternative|not
+Asia/Istanbul                   |GMT+02:00|yes|alternative|not
+Asia/Jerusalem                  |GMT+02:00|yes|alternative|not
+Asia/Nicosia                    |GMT+02:00|yes|alternative|not
+Asia/Tel_Aviv                   |GMT+02:00|yes|alternative|not
+Europe/Athens                   |GMT+02:00|yes|alternative|not
+Europe/Bucharest                |GMT+02:00|yes|alternative|not
+Europe/Chisinau                 |GMT+02:00|yes|alternative|not
+Europe/Helsinki                 |GMT+02:00|yes|alternative|not
+Europe/Istanbul                 |GMT+02:00|yes|alternative|not
+Europe/Kiev                     |GMT+02:00|yes|alternative|not
+Europe/Mariehamn                |GMT+02:00|yes|alternative|not
+Europe/Nicosia                  |GMT+02:00|yes|alternative|not
+Europe/Riga                     |GMT+02:00|yes|alternative|not
+Europe/Simferopol               |GMT+02:00|yes|alternative|not
+Europe/Sofia                    |GMT+02:00|yes|alternative|not
+Europe/Tallinn                  |GMT+02:00|yes|alternative|not
+Europe/Tiraspol                 |GMT+02:00|yes|alternative|not
+Europe/Uzhgorod                 |GMT+02:00|yes|alternative|not
+Europe/Vilnius                  |GMT+02:00|yes|alternative|not
+Europe/Zaporozhye               |GMT+02:00|yes|alternative|not
+Israel                          |GMT+02:00|yes|alternative|not
+Turkey                          |GMT+02:00|yes|alternative|not
+Egypt                           |GMT+02:00|no |primary    |not
+ART                             |GMT+02:00|no |alternative|not
+Africa/Blantyre                 |GMT+02:00|no |alternative|not
+Africa/Bujumbura                |GMT+02:00|no |alternative|not
+Africa/Cairo                    |GMT+02:00|no |alternative|not
+Africa/Gaborone                 |GMT+02:00|no |alternative|not
+Africa/Harare                   |GMT+02:00|no |alternative|not
+Africa/Johannesburg             |GMT+02:00|no |alternative|not
+Africa/Kigali                   |GMT+02:00|no |alternative|not
+Africa/Lubumbashi               |GMT+02:00|no |alternative|not
+Africa/Lusaka                   |GMT+02:00|no |alternative|not
+Africa/Maputo                   |GMT+02:00|no |alternative|not
+Africa/Maseru                   |GMT+02:00|no |alternative|not
+Africa/Mbabane                  |GMT+02:00|no |alternative|not
+Africa/Tripoli                  |GMT+02:00|no |alternative|not
+Asia/Gaza                       |GMT+02:00|no |alternative|not
+Asia/Hebron                     |GMT+02:00|no |alternative|not
+CAT                             |GMT+02:00|no |alternative|not
+Etc/GMT-2                       |GMT+02:00|no |alternative|not
+Libya                           |GMT+02:00|no |alternative|not
+EAT                             |GMT+03:00|no |primary    |fallback
+Africa/Addis_Ababa              |GMT+03:00|no |alternative|not
+Africa/Asmara                   |GMT+03:00|no |alternative|not
+Africa/Asmera                   |GMT+03:00|no |alternative|not
+Africa/Dar_es_Salaam            |GMT+03:00|no |alternative|not
+Africa/Djibouti                 |GMT+03:00|no |alternative|not
+Africa/Juba                     |GMT+03:00|no |alternative|not
+Africa/Kampala                  |GMT+03:00|no |alternative|not
+Africa/Khartoum                 |GMT+03:00|no |alternative|not
+Africa/Mogadishu                |GMT+03:00|no |alternative|not
+Africa/Nairobi                  |GMT+03:00|no |alternative|not
+Antarctica/Syowa                |GMT+03:00|no |alternative|not
+Asia/Aden                       |GMT+03:00|no |alternative|not
+Asia/Baghdad                    |GMT+03:00|no |alternative|not
+Asia/Bahrain                    |GMT+03:00|no |alternative|not
+Asia/Kuwait                     |GMT+03:00|no |alternative|not
+Asia/Qatar                      |GMT+03:00|no |alternative|not
+Asia/Riyadh                     |GMT+03:00|no |alternative|not
+Etc/GMT-3                       |GMT+03:00|no |alternative|not
+Europe/Kaliningrad              |GMT+03:00|no |alternative|not
+Europe/Minsk                    |GMT+03:00|no |alternative|not
+Indian/Antananarivo             |GMT+03:00|no |alternative|not
+Indian/Comoro                   |GMT+03:00|no |alternative|not
+Indian/Mayotte                  |GMT+03:00|no |alternative|not
+Mideast/Riyadh87                |GMT+03:07|no |primary    |fallback
+Asia/Riyadh87                   |GMT+03:07|no |alternative|not
+Asia/Riyadh88                   |GMT+03:07|no |alternative|not
+Asia/Riyadh89                   |GMT+03:07|no |alternative|not
+Mideast/Riyadh88                |GMT+03:07|no |alternative|not
+Mideast/Riyadh89                |GMT+03:07|no |alternative|not
+Asia/Tehran                     |GMT+03:30|yes|primary    |fallback
+Iran                            |GMT+03:30|yes|alternative|not
+Asia/Baku                       |GMT+04:00|yes|primary    |not
+Asia/Dubai                      |GMT+04:00|no |primary    |fallback
+Asia/Muscat                     |GMT+04:00|no |alternative|not
+Asia/Tbilisi                    |GMT+04:00|no |alternative|not
+Asia/Yerevan                    |GMT+04:00|no |alternative|not
+Etc/GMT-4                       |GMT+04:00|no |alternative|not
+Europe/Moscow                   |GMT+04:00|no |alternative|not
+Europe/Samara                   |GMT+04:00|no |alternative|not
+Europe/Volgograd                |GMT+04:00|no |alternative|not
+Indian/Mahe                     |GMT+04:00|no |alternative|not
+Indian/Mauritius                |GMT+04:00|no |alternative|not
+Indian/Reunion                  |GMT+04:00|no |alternative|not
+NET                             |GMT+04:00|no |alternative|not
+W-SU                            |GMT+04:00|no |alternative|not
+Asia/Kabul                      |GMT+04:30|no |primary    |fallback
+Asia/Karachi                    |GMT+05:00|no |primary    |fallback
+Antarctica/Mawson               |GMT+05:00|no |alternative|not
+Asia/Aqtau                      |GMT+05:00|no |alternative|not
+Asia/Aqtobe                     |GMT+05:00|no |alternative|not
+Asia/Ashgabat                   |GMT+05:00|no |alternative|not
+Asia/Ashkhabad                  |GMT+05:00|no |alternative|not
+Asia/Dushanbe                   |GMT+05:00|no |alternative|not
+Asia/Oral                       |GMT+05:00|no |alternative|not
+Asia/Samarkand                  |GMT+05:00|no |alternative|not
+Asia/Tashkent                   |GMT+05:00|no |alternative|not
+Etc/GMT-5                       |GMT+05:00|no |alternative|not
+Indian/Kerguelen                |GMT+05:00|no |alternative|not
+Indian/Maldives                 |GMT+05:00|no |alternative|not
+PLT                             |GMT+05:00|no |alternative|not
+Asia/Calcutta                   |GMT+05:30|no |alternative|not
+Asia/Colombo                    |GMT+05:30|no |alternative|not
+Asia/Kolkata                    |GMT+05:30|no |alternative|not
+IST                             |GMT+05:30|no |primary    |fallback
+Asia/Kathmandu                  |GMT+05:45|no |alternative|not
+Asia/Katmandu                   |GMT+05:45|no |alternative|not
+BST                             |GMT+06:00|no |primary    |fallback
+Antarctica/Vostok               |GMT+06:00|no |alternative|not
+Asia/Almaty                     |GMT+06:00|no |alternative|not
+Asia/Bishkek                    |GMT+06:00|no |alternative|not
+Asia/Dacca                      |GMT+06:00|no |alternative|not
+Asia/Dhaka                      |GMT+06:00|no |alternative|not
+Asia/Qyzylorda                  |GMT+06:00|no |alternative|not
+Asia/Thimbu                     |GMT+06:00|no |alternative|not
+Asia/Thimphu                    |GMT+06:00|no |alternative|not
+Asia/Yekaterinburg              |GMT+06:00|no |alternative|not
+Etc/GMT-6                       |GMT+06:00|no |alternative|not
+Indian/Chagos                   |GMT+06:00|no |alternative|not
+Asia/Rangoon                    |GMT+06:30|no |primary    |fallback
+Indian/Cocos                    |GMT+06:30|no |alternative|not
+VST                             |GMT+07:00|no |primary    |fallback
+Antarctica/Davis                |GMT+07:00|no |alternative|not
+Asia/Bangkok                    |GMT+07:00|no |alternative|not
+Asia/Ho_Chi_Minh                |GMT+07:00|no |alternative|not
+Asia/Hovd                       |GMT+07:00|no |alternative|not
+Asia/Jakarta                    |GMT+07:00|no |alternative|not
+Asia/Novokuznetsk               |GMT+07:00|no |alternative|not
+Asia/Novosibirsk                |GMT+07:00|no |alternative|not
+Asia/Omsk                       |GMT+07:00|no |alternative|not
+Asia/Phnom_Penh                 |GMT+07:00|no |alternative|not
+Asia/Pontianak                  |GMT+07:00|no |alternative|not
+Asia/Saigon                     |GMT+07:00|no |alternative|not
+Asia/Vientiane                  |GMT+07:00|no |alternative|not
+Etc/GMT-7                       |GMT+07:00|no |alternative|not
+Indian/Christmas                |GMT+07:00|no |alternative|not
+Hongkong                        |GMT+08:00|no |primary    |fallback
+Antarctica/Casey                |GMT+08:00|no |alternative|not
+Asia/Brunei                     |GMT+08:00|no |alternative|not
+Asia/Choibalsan                 |GMT+08:00|no |alternative|not
+Asia/Chongqing                  |GMT+08:00|no |alternative|not
+Asia/Chungking                  |GMT+08:00|no |alternative|not
+Asia/Harbin                     |GMT+08:00|no |alternative|not
+Asia/Hong_Kong                  |GMT+08:00|no |alternative|not
+Asia/Kashgar                    |GMT+08:00|no |alternative|not
+Asia/Krasnoyarsk                |GMT+08:00|no |alternative|not
+Asia/Kuala_Lumpur               |GMT+08:00|no |alternative|not
+Asia/Kuching                    |GMT+08:00|no |alternative|not
+Asia/Macao                      |GMT+08:00|no |alternative|not
+Asia/Macau                      |GMT+08:00|no |alternative|not
+Asia/Makassar                   |GMT+08:00|no |alternative|not
+Asia/Manila                     |GMT+08:00|no |alternative|not
+Asia/Shanghai                   |GMT+08:00|no |alternative|not
+Asia/Singapore                  |GMT+08:00|no |alternative|not
+Asia/Taipei                     |GMT+08:00|no |alternative|not
+Asia/Ujung_Pandang              |GMT+08:00|no |alternative|not
+Asia/Ulaanbaatar                |GMT+08:00|no |alternative|not
+Asia/Ulan_Bator                 |GMT+08:00|no |alternative|not
+Asia/Urumqi                     |GMT+08:00|no |alternative|not
+Australia/Perth                 |GMT+08:00|no |alternative|not
+Australia/West                  |GMT+08:00|no |alternative|not
+CTT                             |GMT+08:00|no |alternative|not
+Etc/GMT-8                       |GMT+08:00|no |alternative|not
+PRC                             |GMT+08:00|no |alternative|not
+Singapore                       |GMT+08:00|no |alternative|not
+Australia/Eucla                 |GMT+08:45|no |primary    |fallback
+Asia/Tokyo                      |GMT+09:00|no |primary    |fallback
+Asia/Dili                       |GMT+09:00|no |alternative|not
+Asia/Irkutsk                    |GMT+09:00|no |alternative|not
+Asia/Jayapura                   |GMT+09:00|no |alternative|not
+Asia/Pyongyang                  |GMT+09:00|no |alternative|not
+Asia/Seoul                      |GMT+09:00|no |alternative|not
+Etc/GMT-9                       |GMT+09:00|no |alternative|not
+JST                             |GMT+09:00|no |alternative|not
+Japan                           |GMT+09:00|no |alternative|not
+Pacific/Palau                   |GMT+09:00|no |alternative|not
+ROK                             |GMT+09:00|no |alternative|not
+Australia/Adelaide              |GMT+09:30|yes|primary    |fallback
+Australia/Broken_Hill           |GMT+09:30|yes|alternative|not
+Australia/South                 |GMT+09:30|yes|alternative|not
+Australia/Yancowinna            |GMT+09:30|yes|alternative|not
+Australia/North                 |GMT+09:30|no |primary    |not
+ACT                             |GMT+09:30|no |alternative|not
+Australia/Darwin                |GMT+09:30|no |alternative|not
+Australia/ACT                   |GMT+10:00|yes|primary    |fallback
+AET                             |GMT+10:00|yes|alternative|not
+Australia/Canberra              |GMT+10:00|yes|alternative|not
+Australia/Currie                |GMT+10:00|yes|alternative|not
+Australia/Hobart                |GMT+10:00|yes|alternative|not
+Australia/Melbourne             |GMT+10:00|yes|alternative|not
+Australia/NSW                   |GMT+10:00|yes|alternative|not
+Australia/Sydney                |GMT+10:00|yes|alternative|not
+Australia/Tasmania              |GMT+10:00|yes|alternative|not
+Australia/Victoria              |GMT+10:00|yes|alternative|not
+Pacific/Guam                    |GMT+10:00|no |primary    |not
+Australia/Queensland            |GMT+10:00|no |alternative|not
+Antarctica/DumontDUrville       |GMT+10:00|no |alternative|not
+Asia/Yakutsk                    |GMT+10:00|no |alternative|not
+Australia/Brisbane              |GMT+10:00|no |alternative|not
+Australia/Lindeman              |GMT+10:00|no |alternative|not
+Etc/GMT-10                      |GMT+10:00|no |alternative|not
+Pacific/Chuuk                   |GMT+10:00|no |alternative|not
+Pacific/Port_Moresby            |GMT+10:00|no |alternative|not
+Pacific/Saipan                  |GMT+10:00|no |alternative|not
+Pacific/Truk                    |GMT+10:00|no |alternative|not
+Pacific/Yap                     |GMT+10:00|no |alternative|not
+Australia/Lord_Howe             |GMT+10:30|yes|primary    |fallback
+Australia/LHI                   |GMT+10:30|yes|alternative|not
+SST                             |GMT+11:00|no |primary    |fallback
+Antarctica/Macquarie            |GMT+11:00|no |alternative|not
+Asia/Sakhalin                   |GMT+11:00|no |alternative|not
+Asia/Vladivostok                |GMT+11:00|no |alternative|not
+Etc/GMT-11                      |GMT+11:00|no |alternative|not
+Pacific/Efate                   |GMT+11:00|no |alternative|not
+Pacific/Guadalcanal             |GMT+11:00|no |alternative|not
+Pacific/Kosrae                  |GMT+11:00|no |alternative|not
+Pacific/Noumea                  |GMT+11:00|no |alternative|not
+Pacific/Pohnpei                 |GMT+11:00|no |alternative|not
+Pacific/Ponape                  |GMT+11:00|no |alternative|not
+Pacific/Norfolk                 |GMT+11:30|no |primary    |fallback
+Pacific/Auckland                |GMT+12:00|yes|primary    |not
+Antarctica/McMurdo              |GMT+12:00|yes|alternative|not
+Antarctica/South_Pole           |GMT+12:00|yes|alternative|not
+NST                             |GMT+12:00|yes|alternative|not
+NZ                              |GMT+12:00|yes|alternative|not
+Pacific/Fiji                    |GMT+12:00|no |primary    |fallback
+Pacific/Funafuti                |GMT+12:00|no |alternative|not
+Pacific/Kwajalein               |GMT+12:00|no |alternative|not
+Pacific/Majuro                  |GMT+12:00|no |alternative|not
+Pacific/Nauru                   |GMT+12:00|no |alternative|not
+Pacific/Tarawa                  |GMT+12:00|no |alternative|not
+Pacific/Wake                    |GMT+12:00|no |alternative|not
+Pacific/Wallis                  |GMT+12:00|no |alternative|not
+Asia/Anadyr                     |GMT+12:00|no |alternative|not
+Asia/Kamchatka                  |GMT+12:00|no |alternative|not
+Asia/Magadan                    |GMT+12:00|no |alternative|not
+Etc/GMT-12                      |GMT+12:00|no |alternative|not
+Kwajalein                       |GMT+12:00|no |alternative|not
+Pacific/Chatham                 |GMT+12:45|yes|primary    |fallback
+NZ-CHAT                         |GMT+12:45|yes|alternative|not
+Pacific/Apia                    |GMT+13:00|no |primary    |fallback
+Etc/GMT-13                      |GMT+13:00|no |alternative|not
+MIT                             |GMT+13:00|no |alternative|not
+Pacific/Enderbury               |GMT+13:00|no |alternative|not
+Pacific/Tongatapu               |GMT+13:00|no |alternative|not
+Etc/GMT-14                      |GMT+14:00|no |primary    |fallback
+Pacific/Fakaofo                 |GMT+14:00|no |alternative|not
+Pacific/Kiritimati              |GMT+14:00|no |alternative|not
