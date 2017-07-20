@@ -3,7 +3,7 @@
     <groupId>com.arondight</groupId>
     <artifactId>timezone</artifactId>
     <packaging>jar</packaging>
-    <version>17.7.0</version>
+    <version>3.0.0</version>
     <description>TimeZone Utility Library</description>
     <name>TimeZone Utility Library</name>
 
