@@ -16,66 +16,68 @@ import static com.arondight.timezone.TzConstants.*;
  * for instance allowing you to take user text input and convert it to a TimeZone object
  * that can be used in your code.
  *
- * <h4>TimeZone ID Input</h4>
+ * <b>TimeZone ID Input</b>
  *     All getById methods that take an "id" as input will accept a Java / IANA TimeZone ID or an old Apple iOS TimeZone ID.
  *     For example:
  *     <blockquote>
- *     <table border=0 cellspacing=3 cellpadding=3>
- *         <tr bgcolor="#ccccff"><th>Input ID</th></tr>
+ *     <table>
+ *         <caption>Examples</caption>
+ *         <tr><th>Input ID</th></tr>
  *         <tr><td>US/Pacific</td></tr>
- *         <tr bgcolor="#eeeeff"><td>America/Los_Angeles</td></tr>
+ *         <tr><td>America/Los_Angeles</td></tr>
  *         <tr><td>America/New_York</td></tr>
- *         <tr bgcolor="#eeeeff"><td>IST</td></tr>
+ *         <tr><td>IST</td></tr>
  *         <tr><td>GMT</td></tr>
  *     </table>
  *     </blockquote>
  *
- * <h4>GMT String Input</h4>
+ * <b>GMT String Input</b>
  *     A GMT String is a string that represents an offset from GMT. The utility allows a great flexibility
  *     in what is acceptable as it will parse the string and attempt to normalize it.
  *     As examples, the function {@link TimeZoneUtil#toStandardizedGmtString(String)}
  *     will process the following input to the following standard output format
  *     <blockquote>
- *     <table border=0 cellspacing=3 cellpadding=3>
- *         <tr bgcolor="#ccccff"><th align=left>Input</th><th align=left>Standardized Output</th></tr>
+ *     <table>
+ *         <caption>Examples</caption>
+ *         <tr><th>Input</th><th>Standardized Output</th></tr>
  *         <tr><td>GMT-00</td><td>GMT</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT+1</td><td>GMT+01:00</td></tr>
+ *         <tr><td>GMT+1</td><td>GMT+01:00</td></tr>
  *         <tr><td>GMT+01</td><td>GMT+01:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT-11</td><td>GMT-11:00</td></tr>
+ *         <tr><td>GMT-11</td><td>GMT-11:00</td></tr>
  *         <tr><td>GMT+800</td><td>GMT+08:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT-830</td><td>GMT-08:30</td></tr>
+ *         <tr><td>GMT-830</td><td>GMT-08:30</td></tr>
  *         <tr><td>GMT+1100</td><td>GMT+11:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT-1130</td><td>GMT-11:30</td></tr>
+ *         <tr><td>GMT-1130</td><td>GMT-11:30</td></tr>
  *         <tr><td>GMT+1:00</td><td>GMT+01:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT-00:00</td><td>GMT</td></tr>
+ *         <tr><td>GMT-00:00</td><td>GMT</td></tr>
  *         <tr><td>GMT+01:00</td><td>GMT+01:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT-11:00</td><td>GMT-11:00</td></tr>
+ *         <tr><td>GMT-11:00</td><td>GMT-11:00</td></tr>
  *         <tr><td>GMT-11:30</td><td>GMT-11:30</td></tr>
- *         <tr bgcolor="#eeeeff"><td>GMT+2:0</td><td>GMT+02:00</td></tr>
+ *         <tr><td>GMT+2:0</td><td>GMT+02:00</td></tr>
  *         <tr><td>GMT-06:0</td><td>GMT-06:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>{empty string}</td><td>GMT</td></tr>
+ *         <tr><td>{empty string}</td><td>GMT</td></tr>
  *         <tr><td>-00:00</td><td>GMT</td></tr>
- *         <tr bgcolor="#eeeeff"><td>-00</td><td>GMT</td></tr>
+ *         <tr><td>-00</td><td>GMT</td></tr>
  *         <tr><td>+1</td><td>GMT+01:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>+01</td><td>GMT+01:00</td></tr>
+ *         <tr><td>+01</td><td>GMT+01:00</td></tr>
  *         <tr><td>-11</td><td>GMT-11:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>+800</td><td>GMT+08:00</td></tr>
+ *         <tr><td>+800</td><td>GMT+08:00</td></tr>
  *         <tr><td>-830</td><td>GMT-08:30</td></tr>
- *         <tr bgcolor="#eeeeff"><td>+1100</td><td>GMT+11:00</td></tr>
+ *         <tr><td>+1100</td><td>GMT+11:00</td></tr>
  *         <tr><td>-1130</td><td>GMT-11:30</td></tr>
- *         <tr bgcolor="#eeeeff"><td>+1:00</td><td>GMT+01:00</td></tr>
+ *         <tr><td>+1:00</td><td>GMT+01:00</td></tr>
  *         <tr><td>+01:00</td><td>GMT+01:00</td></tr>
- *         <tr bgcolor="#eeeeff"><td>-11:00</td><td>GMT-11:00</td></tr>
+ *         <tr><td>-11:00</td><td>GMT-11:00</td></tr>
  *         <tr><td>-11:30</td><td>GMT-11:30</td></tr>
- *         <tr bgcolor="#eeeeff"><td>+2:0</td><td>GMT+02:00</td></tr>
+ *         <tr><td>+2:0</td><td>GMT+02:00</td></tr>
  *         <tr><td>-06:0</td><td>GMT-06:00</td></tr>
  *     </table>
  *     </blockquote>
  *
- * <h4>Location String</h4>
+ * <b>Location String</b>
  *     See the <a href="LocationUtil.html#lsinput">Location String Input</a> section of {@link LocationUtil} for more information and details.
  *
- * <h4>US Zipcode</h4>
+ * <b>US Zipcode</b>
  *     See the <a href="LocationUtil.html#zipcode">US Zipcode</a> section of {@link LocationUtil} for more information and details.
  */
 public class TimeZoneUtil extends BaseUtil {
@@ -327,6 +329,7 @@ public class TimeZoneUtil extends BaseUtil {
      * Gets the minutes offset from GMT for the gmt string
      * @param gmtString the gmt string
      * @return offset in minutes
+     * @throws IOException if there is an error
      */
     public int toMinutes(String gmtString) throws IOException {
         try {

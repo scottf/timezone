@@ -21,6 +21,7 @@ abstract class BaseUtil {
     /**
      * Set the data source for the data. Reloads the data
      * @param zoneDataSource the ZoneDataSource implementation
+     * @throws TzException if there is an error
      */
     public void setZoneDataSource(ZoneDataSource zoneDataSource) throws TzException {
         this.zoneDataSource = zoneDataSource;
@@ -29,6 +30,7 @@ abstract class BaseUtil {
 
     /**
      * Reload the data if the data has changed
+     * @throws TzException if there is an error
      */
     public void reloadIfChanged() throws TzException {
         // has the data source been updated since we loaded it?
@@ -39,6 +41,7 @@ abstract class BaseUtil {
 
     /**
      * Reload the data
+     * @throws TzException if there is an error
      */
     public void reload() throws TzException {
         try {
