@@ -4,15 +4,13 @@ import com.arondight.timezone.data.JavaZone;
 import com.arondight.timezone.data.LocationZone;
 import com.arondight.timezone.data.ZoneDataSource;
 import com.arondight.timezone.data.ZoneDataSourceInternal;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@RunWith(JUnit4.class)
+
 public class TimeZoneBeanTests {
 
     private static ZoneDataSource _zoneDataSource;
