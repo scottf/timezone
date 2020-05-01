@@ -4,10 +4,7 @@ import com.arondight.timezone.data.JavaZone;
 import com.arondight.timezone.data.ZoneDataSource;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.TimeZone;
+import java.util.*;
 
 import static com.arondight.timezone.TzConstants.*;
 
@@ -484,6 +481,22 @@ public class TimeZoneUtil extends BaseUtil {
     }
 
     /**
+     * Gets a a list of all unique gmt strings
+     * @return the list
+     */
+    public List<String> getAllUniqueGmtStrings() {
+        return ALL_UNIQUE_GMT_STRINGS;
+    }
+
+    /**
+     * Gets a a list of all unique offset minutes
+     * @return the list
+     */
+    public List<Integer> getAllUniqueOffsetMinutes() {
+        return ALL_UNIQUE_OFFSET_MINUTES;
+    }
+
+    /**
      * Gets a key or extended standardized gmt string from gmt offset minutes.
      * Useful for hash maps.
      * Considers the gmt string and the fact of whether to use daylight savings.
@@ -536,6 +549,8 @@ public class TimeZoneUtil extends BaseUtil {
     private Map<Integer, JavaZone> FALLBACK_BY_OFFSET;
     private Map<String, String> NON_JAVA_CODES_TO_ID;
     private LocationUtil LOCATION_UTIL;
+    private List<String> ALL_UNIQUE_GMT_STRINGS;
+    private List<Integer> ALL_UNIQUE_OFFSET_MINUTES;
 
     public TimeZoneUtil() throws TzException {
         super();
@@ -553,9 +568,20 @@ public class TimeZoneUtil extends BaseUtil {
         Map<String, JavaZone> TEMP_PRIMARY_BY_OFFSET_KEY = new HashMap<String, JavaZone>();
         Map<String, JavaZone> TEMP_FALLBACK_BY_GMT_STRING = new HashMap<String, JavaZone>();
         Map<Integer, JavaZone> TEMP_FALLBACK_BY_OFFSET = new HashMap<Integer, JavaZone>();
+        List<String> TEMP_ALL_UNIQUE_GMT_STRINGS = new ArrayList<>();
+        List<Integer> TEMP_ALL_UNIQUE_OFFSET_MINUTES = new ArrayList<>();
+
+        String lastUniqueGmtStr = "notmatch";
 
         List<JavaZone> javaZones = getZoneDataSource().getJavaZones();
         for (JavaZone jz : javaZones) {
+            String curUniqueGmtStr = jz.getGmtString();
+            if (!curUniqueGmtStr.equals(lastUniqueGmtStr)) {
+                TEMP_ALL_UNIQUE_GMT_STRINGS.add(curUniqueGmtStr);
+                TEMP_ALL_UNIQUE_OFFSET_MINUTES.add(jz.getOffsetMinutes());
+                lastUniqueGmtStr = curUniqueGmtStr;
+            }
+
             TEMP_ALL_JAVA_IDS.put(jz.getId().toUpperCase(), jz.getId()); // just need to find not null
 
             if (jz.isPrimary()) {
@@ -576,6 +602,9 @@ public class TimeZoneUtil extends BaseUtil {
         FALLBACK_BY_GMT_STRING = TEMP_FALLBACK_BY_GMT_STRING;
         FALLBACK_BY_OFFSET = TEMP_FALLBACK_BY_OFFSET;
         NON_JAVA_CODES_TO_ID = TEMP_NON_JAVA_CODES_TO_ID;
+        ALL_UNIQUE_GMT_STRINGS = Collections.unmodifiableList(TEMP_ALL_UNIQUE_GMT_STRINGS);
+        ALL_UNIQUE_OFFSET_MINUTES = Collections.unmodifiableList(TEMP_ALL_UNIQUE_OFFSET_MINUTES);
+
         LocationUtil TEMP_LOCATION_UTIL = new LocationUtil(getZoneDataSource());
 
         // if it gets here, there was no TzException it's safe to copy the temp

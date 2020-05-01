@@ -2,6 +2,7 @@ package com.arondight.timezone;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import java.util.TimeZone;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,6 +24,21 @@ public abstract class TimeZoneUtilTests {
     private static final String CANADA_CENTRAL = "Canada/Central";
 
     protected abstract TimeZoneUtil getTimeZoneUtil() throws TzException;
+
+    @Test
+    public void toMinutes() throws TzException, IOException {
+        String[] testsW = new String[] { "GMT+1", "GMT-00", "GMT+01", "GMT-11", "GMT+800", "GMT-830", "GMT+1100", "GMT-1130", "GMT+1:00", "GMT-00:00", "GMT+01:00", "GMT-11:00", "GMT-11:30", "GMT+2:0", "GMT-06:0"};
+        String[] testsWo = new String[] { "+1", "-00", "+01", "-11", "+800", "-830", "+1100", "-1130", "+1:00", "-00:00", "+01:00", "-11:00", "-11:30", "+2:0", "-06:0" };
+
+        Integer[] answers = new Integer[] { 60,0,60,-660,480,-510,660,-690,60,0,60,-660,-690,120,-360 };
+
+        for (int x = 0; x < testsW.length; x++) {
+            int minsW = getTimeZoneUtil().toMinutes(testsW[x]);
+            int minsWo = getTimeZoneUtil().toMinutes(testsWo[x]);
+            assertEquals(answers[x], minsW);
+            assertEquals(answers[x], minsWo);
+        }
+    }
 
     @Test
     public void byUsLocation() throws TzException {

@@ -26,7 +26,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10};
+var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -245,13 +245,27 @@ extends java.lang.Object</pre>
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
+<td class="colFirst"><code>java.util.List&lt;java.lang.String&gt;</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAllUniqueGmtStrings()">getAllUniqueGmtStrings</a></span>()</code></th>
+<td class="colLast">
+<div class="block">Gets a a list of all unique gmt strings</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>java.util.List&lt;java.lang.Integer&gt;</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAllUniqueOffsetMinutes()">getAllUniqueOffsetMinutes</a></span>()</code></th>
+<td class="colLast">
+<div class="block">Gets a a list of all unique offset minutes</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByGmtString(java.lang.String)">getByGmtString</a></span>&#8203;(java.lang.String&nbsp;gmtString)</code></th>
 <td class="colLast">
 <div class="block">Gets a TimeZone object by a GMT string, accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i1" class="rowColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByGmtString(java.lang.String,boolean)">getByGmtString</a></span>&#8203;(java.lang.String&nbsp;gmtString,
               boolean&nbsp;acceptFallback)</code></th>
@@ -259,7 +273,7 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by a GMT string, optionally accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByGmtStringAndDst(java.lang.String,boolean)">getByGmtStringAndDst</a></span>&#8203;(java.lang.String&nbsp;gmtString,
                     boolean&nbsp;useDaylight)</code></th>
@@ -267,14 +281,14 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by a GMT string, optionally accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getById(java.lang.String)">getById</a></span>&#8203;(java.lang.String&nbsp;id)</code></th>
 <td class="colLast">
 <div class="block">Gets a TimeZone object by id, accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getById(java.lang.String,boolean)">getById</a></span>&#8203;(java.lang.String&nbsp;id,
        boolean&nbsp;acceptFallback)</code></th>
@@ -282,14 +296,14 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by id, optionally accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByLocation(java.lang.String)">getByLocation</a></span>&#8203;(java.lang.String&nbsp;location)</code></th>
 <td class="colLast">
 <div class="block">Gets a TimeZone object by a location address string.</div>
 </td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByLocation(java.lang.String,boolean)">getByLocation</a></span>&#8203;(java.lang.String&nbsp;location,
              boolean&nbsp;defaultIfUnresolvedInMultiTzCountry)</code></th>
@@ -297,14 +311,14 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by a location address string.</div>
 </td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByOffset(int)">getByOffset</a></span>&#8203;(int&nbsp;offsetMinutes)</code></th>
 <td class="colLast">
 <div class="block">Gets a TimeZone object by minutes, accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByOffset(int,boolean)">getByOffset</a></span>&#8203;(int&nbsp;offsetMinutes,
            boolean&nbsp;acceptFallback)</code></th>
@@ -312,7 +326,7 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by minutes, optionally accepting the fallback option</div>
 </td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByOffsetAndDst(int,boolean)">getByOffsetAndDst</a></span>&#8203;(int&nbsp;offsetMinutes,
                  boolean&nbsp;useDaylight)</code></th>
@@ -320,14 +334,14 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by minutes, take into account whether the TimeZone uses Daylight Savings Time</div>
 </td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByUsLocation(java.lang.String)">getByUsLocation</a></span>&#8203;(java.lang.String&nbsp;location)</code></th>
 <td class="colLast">
 <div class="block">Gets a TimeZone object by a location US address string.</div>
 </td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByUsLocation(java.lang.String,boolean)">getByUsLocation</a></span>&#8203;(java.lang.String&nbsp;location,
                boolean&nbsp;defaultIfUnresolvedInMultiTzCountry)</code></th>
@@ -335,7 +349,7 @@ extends java.lang.Object</pre>
 <div class="block">Gets a TimeZone object by a location US address string.</div>
 </td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByUsZip(int)">getByUsZip</a></span>&#8203;(int&nbsp;usZipcode)</code></th>
 <td class="colLast">
@@ -343,7 +357,7 @@ extends java.lang.Object</pre>
  Delegates directly to <a href="LocationUtil.html#getByUsZip(int)"><code>LocationUtil.getByUsZip(int)</code></a></div>
 </td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code>java.util.TimeZone</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getByUsZip(java.lang.String)">getByUsZip</a></span>&#8203;(java.lang.String&nbsp;usZipcode)</code></th>
 <td class="colLast">
@@ -351,21 +365,21 @@ extends java.lang.Object</pre>
  Delegates directly to <a href="LocationUtil.html#getByUsZip(java.lang.String)"><code>LocationUtil.getByUsZip(String)</code></a></div>
 </td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getCurrentOffsetMillis(java.util.TimeZone)">getCurrentOffsetMillis</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
 <div class="block">Helper method to get the current (as of right now) offset from GMT in milliseconds for the TimeZone</div>
 </td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getCurrentOffsetMinutes(java.util.TimeZone)">getCurrentOffsetMinutes</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
 <div class="block">Helper method to get the current (as of right now) offset from GMT in minutes for the TimeZone</div>
 </td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i18" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getGmtStringKey(java.lang.String,boolean)">getGmtStringKey</a></span>&#8203;(java.lang.String&nbsp;gmtString,
                boolean&nbsp;useDaylight)</code></th>
@@ -373,7 +387,7 @@ extends java.lang.Object</pre>
 <div class="block">Gets a key or extended standardized gmt string from a gmt string.</div>
 </td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getOffsetKey(int,boolean)">getOffsetKey</a></span>&#8203;(int&nbsp;offsetMinutes,
             boolean&nbsp;useDaylight)</code></th>
@@ -381,70 +395,70 @@ extends java.lang.Object</pre>
 <div class="block">Gets a key or extended standardized gmt string from gmt offset minutes.</div>
 </td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getOffsetKey(java.util.TimeZone)">getOffsetKey</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
 <div class="block">Gets a key or extended standardized gmt string from a TimeZone.</div>
 </td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i21" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getRawOffsetMillis(java.util.TimeZone)">getRawOffsetMillis</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
 <div class="block">Delegate method to get the raw offset for the TimeZone</div>
 </td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i22" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getRawOffsetMinutes(java.util.TimeZone)">getRawOffsetMinutes</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
 <div class="block">Helper method to get the raw offset for the TimeZone in minutes</div>
 </td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i23" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#reload()">reload</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Reload the data</div>
 </td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i24" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#reloadIfChanged()">reloadIfChanged</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Reload the data if the data has changed</div>
 </td>
 </tr>
-<tr id="i23" class="rowColor">
+<tr id="i25" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setZoneDataSource(com.arondight.timezone.data.ZoneDataSource)">setZoneDataSource</a></span>&#8203;(<a href="data/ZoneDataSource.html" title="interface in com.arondight.timezone.data">ZoneDataSource</a>&nbsp;zoneDataSource)</code></th>
 <td class="colLast">
 <div class="block">Set the data source for the data.</div>
 </td>
 </tr>
-<tr id="i24" class="altColor">
+<tr id="i26" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toMinutes(java.lang.String)">toMinutes</a></span>&#8203;(java.lang.String&nbsp;gmtString)</code></th>
 <td class="colLast">
 <div class="block">Gets the minutes offset from GMT for the gmt string</div>
 </td>
 </tr>
-<tr id="i25" class="rowColor">
+<tr id="i27" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toStandardizedGmtString(int)">toStandardizedGmtString</a></span>&#8203;(int&nbsp;offsetMinutes)</code></th>
 <td class="colLast">
 <div class="block">Gets a normalized (standardized) gmt string from gmt offset minutes</div>
 </td>
 </tr>
-<tr id="i26" class="altColor">
+<tr id="i28" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toStandardizedGmtString(java.lang.String)">toStandardizedGmtString</a></span>&#8203;(java.lang.String&nbsp;gmtString)</code></th>
 <td class="colLast">
 <div class="block">Normalize (standardize) a gmt string to the exact full format this utility class prefers</div>
 </td>
 </tr>
-<tr id="i27" class="rowColor">
+<tr id="i29" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toTimezoneDisplayString(java.util.TimeZone)">toTimezoneDisplayString</a></span>&#8203;(java.util.TimeZone&nbsp;timeZone)</code></th>
 <td class="colLast">
@@ -915,6 +929,34 @@ extends java.lang.Object</pre>
 <dd><code>useDaylight</code> - whether the TimeZone should consider Daylight Savings Time</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>the gmt string key</dd>
+</dl>
+</li>
+</ul>
+<a id="getAllUniqueGmtStrings()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getAllUniqueGmtStrings</h4>
+<pre class="methodSignature">public&nbsp;java.util.List&lt;java.lang.String&gt;&nbsp;getAllUniqueGmtStrings()</pre>
+<div class="block">Gets a a list of all unique gmt strings</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the list</dd>
+</dl>
+</li>
+</ul>
+<a id="getAllUniqueOffsetMinutes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getAllUniqueOffsetMinutes</h4>
+<pre class="methodSignature">public&nbsp;java.util.List&lt;java.lang.Integer&gt;&nbsp;getAllUniqueOffsetMinutes()</pre>
+<div class="block">Gets a a list of all unique offset minutes</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the list</dd>
 </dl>
 </li>
 </ul>
